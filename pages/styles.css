@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tour-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tour-table th,
+.tour-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tour-table th {
+  background-color: #f2f2f2;
+}
+
+.tour-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tour-table tr:hover {
+  background-color: #ddd;
+}
+
+.tour-form {
+  margin-top: 20px;
+}
+
+.tour-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.tour-form input[type="text"],
+.tour-form input[type="number"],
+.tour-form input[type="date"],
+.tour-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.tour-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tour-form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container .card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
